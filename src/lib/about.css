@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.intro-bar {
+    background-color: rgba(211, 211, 211);
+    padding: 30px 30px;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 30px;
+    padding: 30px 30px;
+}
+
+.homepage-img:hover {
+    transform: scale(1.1);
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    max-width: 200px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 30px;
+}
+
+.about-info p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}

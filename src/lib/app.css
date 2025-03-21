@@ -1,0 +1,136 @@
+@media (max-width: 958px) {
+    .highlight-bar {
+        display: none;
+    }
+}
+
+.logo a {
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Blue-Lagoon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  /* Makes the background stay fixed while scrolling */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    max-width: 100px;
+    width: 100%;
+    max-height: 90px;
+    margin: 20px;
+}
+
+.topbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px); 
+    height: 100px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+
+.topbar h2 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.topbar h2 a.active {
+    font-weight: bold;
+    color: #007BFF;
+    border: 2px solid #007BFF;
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.topbar h2 a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid #007BFF;
+}
+
+.highlight-bar {
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    background-color: #007BFF;
+    transition: left 0.3s ease, width 0.3s ease;
+}
+
+.mode {
+    margin-right: 40px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 011.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 14px;
+    padding-right: 36px;
+}
+
+select:hover {
+    background-color: #e0e0e0;
+}
+
+select:focus {
+    border-color: #007BFF;
+    background-color: #fff;
+}
+
+.page-container {
+    max-width: 1000px;
+    margin: 0px auto 50px; /* Adjust the top margin to move the container down a bit */
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0 4px 10px rgba(62, 59, 59, 0.1);
+    gap: 20px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #222;
+}
+
+.hidden {
+    background-color: transparent;
+    max-width: 400px;
+}

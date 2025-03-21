@@ -1,0 +1,49 @@
+# Main Bar
+
+Yost Designs          Gallery         Contact         About
+
+# Yost Designs
+
+Capture                    Enhance                  Showcase
+
+# Gallery
+
+Gallery
+
+XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX
+XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX
+XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX
+XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX
+XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX
+
+# Contact (Or a user input slot that is stored somewhere)
+
+Email: yostdesigns@outlook.com
+Phone: 402-XXX-XXXX
+
+Instagram: @yostdesigns
+Etsy: @yostdesignz
+linkedIn: YostDesigns
+
+# About
+
+Our Photographer...
+
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+---------------------------------
+
+Where are we located...
+
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+---------------------------------
+
+Our Mission
+
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+---------------------------------

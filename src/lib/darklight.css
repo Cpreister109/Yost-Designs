@@ -1,0 +1,88 @@
+body:has(option[value="dark"]:checked) {
+    background-color: #222;
+    color: #fff;
+}
+
+body:has(option[value="light"]:checked) {
+    background-color: #fff;
+    color: #222;
+}
+
+body:has(option[value="dark"]:checked) .topbar-container {
+    background-color: rgba(34, 34, 34, 0.8);
+}
+
+body:has(option[value="dark"]:checked) .topbar h2 a {
+    color: #fff;
+}
+
+body:has(option[value="dark"]:checked) .topbar h2 a.active {
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: rgba(34, 34, 34, 0.8);
+}
+
+body:has(option[value="dark"]:checked) .topbar h2 a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid #fff;
+}
+
+body:has(option[value="dark"]:checked) .highlight-bar {
+    background-color: #fff;
+}
+
+body:has(option[value="dark"]:checked) select {
+    background-color: #333;
+    border-color: #666;
+    color: #fff;
+}
+
+body:has(option[value="dark"]:checked) select:focus {
+    border-color: #fff;
+}
+
+body:has(option[value="dark"]:checked) .contact-form {
+    background: rgba(68, 68, 68, 0.7);
+}
+
+body:has(option[value="dark"]:checked) .contact-form h2 {
+    color: #fff;
+}
+
+body:has(option[value="dark"]:checked) .contact-form input,
+body:has(option[value="dark"]:checked) .contact-form textarea {
+    border-bottom: 2px solid #666;
+}
+
+body:has(option[value="dark"]:checked) .contact-form input:focus,
+body:has(option[value="dark"]:checked) .contact-form textarea:focus {
+    border-bottom: 2px solid #fff;
+}
+
+body:has(option[value="dark"]:checked) .contact-form input::placeholder,
+body:has(option[value="dark"]:checked) .contact-form textarea::placeholder {
+    color: #ccc;
+}
+
+body:has(option[value="dark"]:checked) .contact-form input:focus::placeholder,
+body:has(option[value="dark"]:checked) .contact-form textarea:focus::placeholder {
+    color: #fff;
+}
+
+body:has(option[value="dark"]:checked) .contact-form button {
+    background: #666;
+}
+
+body:has(option[value="dark"]:checked) .contact-form button:hover {
+    background: rgb(146, 139, 139);
+}
+
+body:has(option[value="dark"]:checked) .page-container {
+    background-color: #444;
+    color: #fff;
+}
+
+body:has(option[value="dark"]:checked) .hidden {
+    background-color: transparent;
+    max-width: 400px;
+}
