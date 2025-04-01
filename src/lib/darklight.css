@@ -78,11 +78,16 @@ body:has(option[value="dark"]:checked) .contact-form button:hover {
 }
 
 body:has(option[value="dark"]:checked) .page-container {
-    background-color: #444;
+    background-color: rgba(34, 34, 34, 0.8);
     color: #fff;
 }
 
 body:has(option[value="dark"]:checked) .hidden {
     background-color: transparent;
     max-width: 400px;
+}
+
+body:has(option[value="dark"]:checked) footer {
+    background-color: rgba(34, 34, 34, 0.8);
+    color: #fff;
 }

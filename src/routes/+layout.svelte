@@ -2,6 +2,14 @@
     import "$lib/app.css";
     import "$lib/darklight.css";
     import { page } from '$app/stores';
+    import { onMount } from "svelte";
+
+    onMount(() => {
+        const script = document.createElement("script");
+        script.src = "https://kit.fontawesome.com/24fc75aea0.js";
+        script.crossOrigin = "anonymous";
+        document.head.appendChild(script);
+    });
 
     let activeLink = '';
     $: activeLink = $page.url.pathname;
@@ -54,5 +62,17 @@
 </div>
 
 <footer>
-    <p>2025 Yost Designs</p>
+
+    <div class="footer-left">
+        <p>2025 Yost Designs</p>
+        <a href="tel:+1234567890">📞 (123) 456-7890</a>
+        <a href="mailto:info@yostdesigns.com">📭 info@yostdesigns.com</a>
+    </div>
+    <div class="socials">
+        <a href="./" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="./" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="./" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="./" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="./" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
 </footer>

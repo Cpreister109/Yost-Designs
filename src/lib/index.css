@@ -7,12 +7,12 @@ body {
 }
 
 .welcome-bar {
-    background-color: rgba(211, 211, 211);
+    background-color: rgb(50, 49, 49);
     padding: 30px 30px;
 }
 
 h1 {
-    color: #333;
+    color: #fff;
     margin-top: 20px;
 }
 
@@ -22,7 +22,7 @@ h1 {
     align-items: center;
     gap: 100px;
     margin-top: 30px;
-    background-color: lightgray;
+    background-color: rgb(50, 49, 49);
     padding: 30px 30px;
 }
 
@@ -42,25 +42,27 @@ h1 {
 }
 
 .fa-solid {
-    font-size: 3rem;
-    color: #333;
+    font-size: 4rem;
+    color: lightgray;
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .fa-solid:hover {
     transform: translateY(-5px);
-    color: gray;
+    color: rgba(255, 255, 255);
 }
 
 .caption {
+    font-size: 30px;
     margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: bold;
-    color: #333;
+    color: #fff;
 }
 
-.description {
-    font-size: 14px;
-    color: #666;
+.symbols-container .description {
+    font-size: 12px;
+    color: lightgray;
     max-width: 200px;
 }
 

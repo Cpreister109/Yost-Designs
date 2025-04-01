@@ -4,11 +4,10 @@
 
 <div class="intro-bar">
 
-    <h1>
-        The Photgrapher,
-        Blake Yost
-    </h1>
     <div class="text-container">
+        <h1>
+            The Photgrapher, Blake Yost
+        </h1>
         <p class="description">.</p>
     </div>
 
