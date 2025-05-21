@@ -65,13 +65,12 @@
 
     <div class="footer-left">
         <p>2025 Yost Designs</p>
-        <a href="tel:+1234567890">📞 (123) 456-7890</a>
-        <a href="mailto:info@yostdesigns.com">📭 info@yostdesigns.com</a>
+        <a href="tel:+4023068681">📞 (402) 306-8681</a>
+        <a href="mailto:Byostdesigns@gmail.com">📭 Byostdesigns@gmail.com</a>
     </div>
     <div class="socials">
         <a href="./" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
         <a href="./" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-        <a href="./" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
         <a href="./" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
         <a href="./" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
     </div>

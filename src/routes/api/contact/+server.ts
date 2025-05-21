@@ -10,7 +10,7 @@ export async function POST({ request }) {
         secure: false,
         auth: {
             user: 'cadepreister@gmail.com',
-            pass: ' ',
+            pass: 'pogg mrod sqno sxtx',
         },
     });
 

@@ -87,6 +87,10 @@ body:has(option[value="dark"]:checked) .hidden {
     max-width: 400px;
 }
 
+body:has(option[value="dark"]:checked) .footer-left {
+    color: #fff;
+}
+
 body:has(option[value="dark"]:checked) footer {
     background-color: rgba(34, 34, 34, 0.8);
     color: #fff;
